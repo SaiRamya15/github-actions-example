@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE 8080
-ADD target/springboot-images-new.jar springboot-images-new.jar
-ENTRYPOINT ["java","-jar","/springboot-images-new.jar"]
+EXPOSE 9091
+ADD target/springbootimage-new.jar springbootimage-new.jar
+ENTRYPOINT ["java","-jar","/springbootimage-new.jar"]
